@@ -3,45 +3,56 @@
 
 <head>
     <meta charset="uft-8">
-    <title>OtterGram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/Libs/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OtterGram</title>
 </head>
-<body>
-    <header>
-        <h1>OtterGram</h1>
-    </header>
-    <ul>
-        <li>
-            <a href="#">
-                <img src="img/otter1.jpg">
-                <span>Barry</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img src="img/otter2.jpg">
-                <span>Robin</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                    <img src="img/otter3.jpg">
-                    <span>Maurice</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                    <img src="img/otter4.jpg">
-                    <span>Lesley</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                    <img src="img/otter5.jpg">
-                    <span>Barbera</span>
-            </a>
-        </li>
-    </ul>
-</body>
 
+<body>
+    <header class="main-header">
+        <h1 class="logo-text">OtterGram</h1>
+    </header>
+    <main class="main-content">
+
+        <div class="detail-image-container">
+            <div class="detail-image-frame">
+                <img class="detail-image" src="img/otter1.jpg" alt="">
+                <span class="detail-image-title">Stayin' Alive</span>
+            </div>
+        </div>
+        <ul class="thumbnail-list">
+            <li class="thumbnail-item">
+                <a href="#">
+                    <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
+                    <span class="thumbnail-title">Barry</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="#">
+                    <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
+                    <span class="thumbnail-title">Robin</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="#">
+                    <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
+                    <span class="thumbnail-title">Maurice</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="#">
+                    <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
+                    <span class="thumbnail-title">Lesley</span>
+                </a>
+            </li>
+            <li class="thumbnail-item">
+                <a href="#">
+                    <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbera the Otter">
+                    <span class="thumbnail-title">Barbera</span>
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
 </html>
